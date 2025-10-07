@@ -1,0 +1,9 @@
+[project]
+name = "demoapi-teams-agents"
+version = "0.1.0"
+description = "A basic UV project using FastAPI to expose an API method that lists example organisms"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.118.0",
+    "uvicorn>=0.37.0",
+]
